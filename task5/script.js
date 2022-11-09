@@ -4,7 +4,8 @@ const inputText = document.querySelector('input');
 
 
 buttonEvent.style.background = '#a8e4a0';
-buttonEvent.style.color = '#00008B';
+
+inputForm.style.borderRadius = '5px';
 
 inputForm.addEventListener('submit', (event) => {
     event.preventDefault();
