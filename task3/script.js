@@ -1,7 +1,7 @@
 const trafficLightEl = document.querySelector('#trafficLight');
 
-trafficLightEl.style.width = '150px';
-trafficLightEl.style.height = '150px';
+trafficLightEl.style.width = '180px';
+trafficLightEl.style.height = '180px';
 
 function makeGreen() {
     trafficLightEl.style.background = ('green');
