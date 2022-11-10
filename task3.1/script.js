@@ -2,6 +2,10 @@ const trafficLightEl1 = document.querySelector('#trafficLight1');
 const trafficLightEl2 = document.querySelector('#trafficLight2');
 const trafficLightEl3 = document.querySelector('#trafficLight3');
 
+trafficLightEl1.style.margin = '0 auto';
+trafficLightEl2.style.margin = '0 auto';
+trafficLightEl3.style.margin = '0 auto';
+
 function makeGreen() {
     trafficLightEl3.style.background = ('#000');
     trafficLightEl1.style.background = ('green');
