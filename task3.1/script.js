@@ -5,21 +5,21 @@ const trafficLightEl3 = document.querySelector('#trafficLight3');
 function makeGreen() {
     trafficLightEl3.style.background = ('#000');
     trafficLightEl1.style.background = ('green');
-    trafficLightEl1.removeEventListener('click', makeGreen);
+    document.removeEventListener('click', makeGreen);
     document.addEventListener('click', makeYellow);
 }
 
 function makeYellow() {
     trafficLightEl1.style.background = ('#000');
     trafficLightEl2.style.background = ('yellow');
-    trafficLightEl2.removeEventListener('click', makeYellow);
+    document.removeEventListener('click', makeYellow);
     document.addEventListener('click', makeRed);
 }
 
 function makeRed() {
     trafficLightEl2.style.background = ('#000');
     trafficLightEl3.style.background = ('red');
-    trafficLightEl3.removeEventListener('click', makeRed);
+    document.removeEventListener('click', makeRed);
     document.addEventListener('click', makeGreen);
 }
 
